@@ -16,6 +16,7 @@
   
   .heading{
       height: 100vh;
+      width: 100%;
       background: linear-gradient(to right, rgb(100, 100, 100), rgb(29, 29, 29));
       clip-path: polygon(50% 65%, 0% 20%, -100% -100%, 100% -100%, 100% 20%, 50% 65%);
       
@@ -27,6 +28,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      background: linear-gradient(to right, rgb(100, 100, 100), rgb(29, 29, 29));
   }
 
   .logo{
@@ -44,10 +46,48 @@
       font-size: 1.25rem;
   }
 
-  header{
-      font-size: 2.5rem;
+  .head{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  header {
+      font-size: 3rem;
       text-align: center;
+      position: relative;
+      top: 10%;
       
   }
 
+  .cta{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .contact{
+      height: 50px;
+      width: 150px;
+      border-radius: 30px;
+      border-color: red;
+      background-color: red;
+      color: white;
+      font-weight: bold;
+      font-size: 1.5rem;
+      text-align: center;
+  }
+
+  .contact:hover{
+      background-color: white;
+      border-color: white;
+      color: red;
+      
+  }
+
+  
+
+  
   
