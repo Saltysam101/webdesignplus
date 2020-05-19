@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Nunito Bold'), local('Nunito-Bold'), url(https://fonts.gstatic.com/s/nunito/v12/XRXW3I6Li01BKofAjsOUYevI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  body{
+      font-family: nunito, sans-serif;
+      background-color: rgb(46, 46, 46);
+      color: white;
+      font-size: 16px;
+  }
+  
+  .heading{
+      height: 100vh;
+      background: linear-gradient(to right, rgb(100, 100, 100), rgb(29, 29, 29));
+      clip-path: polygon(50% 65%, 0% 20%, -100% -100%, 100% -100%, 100% 20%, 50% 65%);
+      
+      
+      
+  }
+
+  .nav-bar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .logo{
+      margin-left: 2%;
+  }
+
+  nav{
+      margin-right: 2%;
+      
+  }
+  a{
+      text-decoration: none;
+      color: white;
+      margin: 0 10px;
+      font-size: 1.25rem;
+  }
+
+  header{
+      font-size: 2.5rem;
+      text-align: center;
+      
+  }
+
+  
