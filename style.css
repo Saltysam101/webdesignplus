@@ -7,6 +7,17 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
 
+  * {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    }
+
   body{
       font-family: nunito, sans-serif;
       background-color: rgb(46, 46, 46);
@@ -17,19 +28,12 @@
   .heading{
       height: 100vh;
       width: 100%;
-      background: linear-gradient(to right, rgb(100, 100, 100), rgb(29, 29, 29));
-      clip-path: polygon(50% 65%, 0% 20%, -100% -100%, 100% -100%, 100% 20%, 50% 65%);
-      
-      
-      
-  }
+      background-image: url(Resources/Exclusion\ 7.png);
+      background-repeat: no-repeat;
+      background-size: contain;  
+  } 
 
-  .nav-bar{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: linear-gradient(to right, rgb(100, 100, 100), rgb(29, 29, 29));
-  }
+  
 
   .nav:hover{
       border-bottom: 4px solid red;
@@ -42,8 +46,22 @@
       margin-left: 2%;
   }
 
+  .nav-bar{
+      width: 100%;
+      position: fixed;
+      z-index: 10;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: black;
+      margin-bottom: 20px; 
+  }
+
   nav{
       margin-right: 2%;
+      display: inline;
+      text-align: center;
+      
       
   }
   a{
@@ -58,10 +76,12 @@
       justify-content: center;
       flex-direction: column;
       align-items: center;
+      position: relative;
+      top: 35%;
   }
 
   header {
-      font-size: 3rem;
+      font-size: 3.25rem;
       text-align: center;
       position: relative;
       top: 10%;
@@ -73,6 +93,7 @@
       justify-content: flex-end;
       align-items: center;
       flex-direction: column;
+      margin-top: 5%;
   }
 
   .contact{
@@ -82,6 +103,7 @@
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 30px;
+    margin-bottom: 4%;
   }
 
   .contact:hover{
@@ -104,9 +126,11 @@
   }
 
   .main h2{
-      font-size: 2.5rem;
+      font-size: 3rem;
       margin-bottom: 25px;
       padding: 0;
+      position: relative;
+      top: 15%;
   }
 
   .container{
@@ -121,6 +145,7 @@
       width: 300px;
       text-align: center;
       margin-top: 10%;
+      opacity: 90%;
   }
 
   .design{
@@ -142,14 +167,23 @@
 
   .description{
       font-size: 1.25rem;
-      opacity: 70%;
+      opacity: 75%;
   }
 
 
   .testimonials{
       text-align: center;
       font-size: 2.5rem;
-      height: 75vh;
+      height: 100vh;
+      margin-top: 75px;
+  }
+
+  .reviews{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 75%;
+      width: 100%;
   }
 
   footer{
