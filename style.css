@@ -1,3 +1,7 @@
+:root{
+    --height: 40%;
+}
+
 @font-face {
     font-family: 'Nunito';
     font-style: normal;
@@ -24,6 +28,190 @@
       color: white;
       font-size: 16px;
   }
+
+  @media only screen and (min-width: 768px){
+
+  }
+
+  @media only screen and (min-width: 1125px){
+    .heading{
+        height: 100vh;
+        width: 100%;
+        background-image: url(Resources/Exclusion\ 7.png);
+        background-repeat: no-repeat;
+        background-size: contain;  
+    } 
+  
+    
+  
+    .nav:hover{
+        border-bottom: 4px solid red;
+  
+    }
+  
+    
+  
+    .logo{
+        margin-left: 2%;
+    }
+  
+    .nav-bar{
+        width: 100%;
+        position: fixed;
+        z-index: 10;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        margin-bottom: 20px; 
+    }
+  
+    nav{
+        margin-right: 2%;
+        display: inline;
+        text-align: center;
+        
+        
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        margin: 0 20px;
+        font-size: 1.25rem;
+    }
+  
+    .head{
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    header {
+        font-size: 3rem;
+        
+    }
+  
+    .cta{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+  
+    .contact{
+      background-color: red;
+      color: white;
+      padding: 1em 1.5em;
+      text-decoration: none;
+      text-transform: uppercase;
+      border-radius: 30px;
+      margin-bottom: 4%;
+    }
+  
+    .contact:hover{
+        background-color: white;
+        border-color: white;
+        color: red;
+        
+    }
+  
+    .main{
+        height: 100vh;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(Resources/StockSnap_ZXOBOKAJEQ.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: contain;
+    }
+  
+    .main h2{
+        font-size: 2.75rem;
+        margin-bottom: 25px;
+        padding: 0;
+        position: relative;
+        top: 10%;
+    }
+  
+    .container{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 80%;
+        
+    }
+  
+    .design, .develop, .deploy{
+        width: 375px;
+        text-align: center;
+        margin-top: 10%;
+        opacity: 90%;
+    }
+  
+    .design{
+        margin-left: 10%;
+        border-right: 2px solid white;
+        padding-right: 8%;
+        height: var(--height);
+  
+    }
+  
+    .develop{
+        padding: 0 8%;
+    }
+  
+    .deploy{
+        margin-right: 10%;
+        border-left: 2px solid white;
+        padding-left: 8%;
+        height: var(--height);
+    }
+  
+    .subheads{
+        font-size: 2rem;
+    }
+  
+    .description{
+        font-size: 1.5rem;
+        opacity: 75%;
+    }
+  
+  
+    .testimonials{
+        text-align: center;
+        font-size: 2.5rem;
+        height: 100vh;
+        margin-top: 75px;
+    }
+  
+    .reviews{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 75%;
+        width: 100%;
+    }
+  
+    footer{
+        background-color: black;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+  
+    footer p{
+        margin-left: 2%;
+    }
+  }
+
+  
+
+  @media only screen and (min-width: 1400px){
   
   .heading{
       height: 100vh;
@@ -72,19 +260,15 @@
   }
 
   .head{
+      height: 80%;
       display: flex;
       justify-content: center;
       flex-direction: column;
       align-items: center;
-      position: relative;
-      top: 35%;
   }
 
   header {
       font-size: 3.25rem;
-      text-align: center;
-      position: relative;
-      top: 10%;
       
   }
 
@@ -93,7 +277,7 @@
       justify-content: flex-end;
       align-items: center;
       flex-direction: column;
-      margin-top: 5%;
+      
   }
 
   .contact{
@@ -135,7 +319,7 @@
 
   .container{
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       width: 100%;
       height: 80%;
       
@@ -151,14 +335,20 @@
   .design{
       margin-left: 10%;
       border-right: 2px solid white;
-      padding-right: 10%;
+      padding-right: 8%;
+      height: var(--height);
 
+  }
+
+  .develop{
+      padding: 0 8%;
   }
 
   .deploy{
       margin-right: 10%;
       border-left: 2px solid white;
-      padding-left: 10%;
+      padding-left: 8%;
+      height: var(--height);
   }
 
   .subheads{
@@ -166,7 +356,7 @@
   }
 
   .description{
-      font-size: 1.25rem;
+      font-size: 1.5rem;
       opacity: 75%;
   }
 
@@ -196,6 +386,10 @@
   footer p{
       margin-left: 2%;
   }
+}
+
+
+
 
   
 
