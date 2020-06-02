@@ -243,8 +243,8 @@
 
   @media only screen and (min-width: 1500px){
       .logo{
-          width: auto;
-          height: auto;
+          width: 300px;
+          height: 150px;
           z-index: 4;
       }
 
@@ -263,7 +263,7 @@
 
       .nav{
           margin: 25px;
-          font-size: 1.75rem;
+          font-size: 2.25rem;
       }
 
       .nav:hover{
@@ -274,6 +274,33 @@
           position: fixed;
           z-index: 3;
           width: 100%;
+      }
+
+      .heading{
+          height: 100vh;
+      }
+      .head{
+          height: 100%;
+          display: flex;
+          justify-content: center;
+      }
+
+      header{
+          font-size: 5.5rem;
+      }
+
+      .contact{
+          padding: 3rem 6rem;
+          font-size: 5rem;
+      }
+
+      .contact:hover{
+          background-color: white;
+          color: red;
+      }
+
+      .text{
+          font-size: 1.75rem;
       }
   }
 
