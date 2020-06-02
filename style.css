@@ -18,12 +18,17 @@
     margin: 0;
     }
 
-  body{
+  .body{
       font-family: nunito, sans-serif;
       background-color: rgb(46, 46, 46);
       color: white;
       font-size: 16px;
   }
+
+  .body.open{
+      overflow: hidden;
+  }
+
 
   .logo{
       width: 100px;
@@ -86,6 +91,108 @@
     clip-path: circle(1800px at 90% -10%);
     -webkit-clip-path: circle(1800px at 90% -10%);
     pointer-events: all;
+    
+  }
+
+  .heading{
+      height: 90vh;
+      background-image: url(Resources/Exclusion\ 7.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: top;
+  }
+
+  header{
+      font-size: 1.5rem;
+      margin-top: 15px;
+  }
+
+  .head{
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .cta{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .contact{
+      text-decoration: none;
+      color: white;
+      background-color: red;
+      padding: 1rem 1.5rem;
+      border-radius: 30px;
+      font-size: 1.25rem;
+  }
+
+  .text{
+      font-size: 1rem;
+      padding-top: 1rem;
+  }
+
+  .main{
+      height: 100vh;
+      background-image: url(Resources/StockSnap_ZXOBOKAJEQ.png);
+      background-position: center;
+      background-size: 300%;
+      background-repeat: no-repeat;
+  }
+
+  .services{
+      text-align: center;
+      font-size: 2rem;
+      position: relative;
+      top: 10%;
+      font-weight: bolder;
+  }
+
+  .container{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  }
+
+  .subheads{
+      font-size: 1.25rem;
+      margin-left: 20px;
+      opacity: 80%;
+  }
+
+  .description{
+      font-size: 1rem;
+      margin-left: 40px;
+      opacity: 70%;
+  }
+
+  .testimonials{
+      height: 90vh;
+      text-align: center;
+  }
+
+  .testimonials h2{
+      font-size: 2rem;
+  }
+
+  .reviews{
+      height: 90%;
+      margin-top: 50px;
+  }
+
+  footer{
+      height: 10vh;
+      background-color: black;
+      display: flex;
+      align-items: center;
+  }
+
+  .foot{
+      margin-left: 10px;
   }
 
 
