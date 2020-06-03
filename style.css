@@ -88,8 +88,8 @@
   }
 
   .nav-links.open{
-    clip-path: circle(1800px at 90% -10%);
-    -webkit-clip-path: circle(1800px at 90% -10%);
+    clip-path: circle(2400px at 90% -10%);
+    -webkit-clip-path: circle(2400px at 90% -10%);
     pointer-events: all;
     
   }
@@ -139,7 +139,7 @@
       height: 100vh;
       background-image: url(Resources/StockSnap_ZXOBOKAJEQ.png);
       background-position: center;
-      background-size: 300%;
+      background-size: cover;
       background-repeat: no-repeat;
   }
 
@@ -243,8 +243,8 @@
 
   @media only screen and (min-width: 1500px){
       .logo{
-          width: 300px;
-          height: 150px;
+          width: 200px;
+          height: 100px;
           z-index: 4;
       }
 
@@ -253,17 +253,26 @@
       }
 
       .nav-links{
+          width: 100%;
           clip-path: none;
           height: 10vh;
           display: flex;
           flex-direction: row;
-          justify-content: end;
+          justify-content: flex-end;
           pointer-events: all;
+
+      }
+
+      nav{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 100%;
       }
 
       .nav{
           margin: 25px;
-          font-size: 2.25rem;
+          font-size: 1.5rem;
       }
 
       .nav:hover{
@@ -286,12 +295,13 @@
       }
 
       header{
-          font-size: 5.5rem;
+          font-size: 3.5rem;
+          margin-bottom: 150px;
       }
 
       .contact{
-          padding: 3rem 6rem;
-          font-size: 5rem;
+          padding: 1rem 2rem;
+          font-size: 2rem;
       }
 
       .contact:hover{
@@ -300,7 +310,64 @@
       }
 
       .text{
+          font-size: 1.25rem;
+          margin-top: 10px;
+      }
+
+      .main{
+          background-size: cover;
+      }
+
+      .services{
+          font-size: 3rem;
+      }
+
+      .container{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-evenly;
+          height: 100%;
+      }
+
+      .design, .develop, .deploy{
+          text-align: center;
+          width: auto;
+      }
+
+      .design{
+          border-right: white 1px solid;
+      }
+
+      .deploy{
+          border-left: white 1px solid;
+      }
+
+      .subheads{
+          font-size: 2.5rem;
+          margin-left: 0;
+          padding-bottom: 15px;
+      }
+
+      .description{
+          font-size: 1.5rem;
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          
+      }
+
+      .testimonials h2{
+          font-size: 3rem;
+      }
+      
+      .reviews{
           font-size: 1.75rem;
+          margin-top: 150px;
+      }
+
+      .foot{
+          font-size: 1.5rem;
       }
   }
 
