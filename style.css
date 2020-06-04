@@ -30,6 +30,7 @@
   }
 
 
+  /* For phones */
   .logo{
       width: 100px;
       height: 50px;
@@ -196,8 +197,52 @@
       margin-left: 10px;
   }
 
+  /* For phones in landscape */
+
+  @media only screen and (min-width: 667px){
+      nav{
+          height: 10vh;
+      }
+
+      .logo{
+          width: 10%;
+          height: 100%;
+      }
+
+      .heading{
+          height: 100vh;
+          background-size: contain;
+      }
+
+      header{
+          font-size: 1rem;
+      }
+
+      .services{
+          font-size: 1.5rem;
+      }
+
+      .subheads{
+          font-size: 1.25rem;
+      }
+
+      .description{
+          font-size: 0.75rem;
+      }
+
+      .reviews{
+          height: 75%;
+      }
+  }
+
+  /* For tablets*/
+
   @media only screen and (min-width: 768px){
-      .head{
+    .logo{
+        width: auto;
+        height: auto;
+    }  
+    .head{
           display: flex;
           flex-direction: column;
           justify-content: space-between;
@@ -241,6 +286,48 @@
       }
   }
 
+  @media only screen and (max-height: 375px){
+    nav{
+        height: 10vh;
+    }
+
+    .logo{
+        width: 10%;
+        height: 100%;
+    }
+
+    .heading{
+        height: 100vh;
+        background-size: contain;
+    }
+
+    header{
+        font-size: 1rem;
+    }
+
+    .services{
+        font-size: 1.5rem;
+    }
+
+    .subheads{
+        font-size: 1.25rem;
+    }
+
+    .description{
+        font-size: 0.75rem;
+    }
+
+    .reviews{
+        height: 50%;
+    }
+
+    .foot{
+        font-size: 1rem;
+    }
+  }
+
+
+  /* For Desktop*/
   @media only screen and (min-width: 1500px){
       .logo{
           width: 200px;
