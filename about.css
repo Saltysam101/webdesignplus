@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Nunito Bold'), local('Nunito-Bold'), url(https://fonts.gstatic.com/s/nunito/v12/XRXW3I6Li01BKofAjsOUYevI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  * {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    }
+
+  body{
+      font-family: Nunito, sans-serif;
+      background: linear-gradient( to right, rgb(77, 77, 77), rgb(43, 43, 43));
+      color: white;
+      font-size: 12px;
+  }
+
+  .body.open{
+      overflow: hidden;
+  }
+
+
+  /* For phones */
+  .logo{
+      width: 100px;
+      height: 50px;
+      margin-left: 15px;
+      margin-top: auto;
+      margin-bottom: auto;
+  }
+
+  .line{
+      height: 3px;
+      width: 30px;
+      background-color: white;
+      margin: 5px;
+  }
+
+  .hamburger{
+      position: absolute;
+      top: 3%;
+      right: 5%;
+      transform: translate(-5%, -3%);
+      cursor: pointer;
+      z-index: 5;
+  }
+
+  .nav-bar{
+      max-width: 100%;
+      height: 10vh;
+  }
+
+  .nav{
+      color: white;
+      text-decoration: none;
+      font-size: 1.5rem;
+  }
+
+  nav{
+      display: flex;
+      height: 100%;
+      background-color: black;
+  }
+
+  .nav-links{
+      list-style: none;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100%;
+      height: 100vh;
+      clip-path: circle(10px at 90% -10%);
+      -webkit-clip-path: circle(10px at 90% -10%);
+      transition: 1s ease-out;
+      background-color: black;
+      pointer-events: none;
+  }
+
+  .nav-links.open{
+    clip-path: circle(2400px at 90% -10%);
+    -webkit-clip-path: circle(2400px at 90% -10%);
+    pointer-events: all;
+    z-index: 5;
+    
+  }
+
+  .mobile-title{
+      font-size: 2.25rem;
+      margin-top: 15px;
+  }
+
+   .about{
+      display: none;
+  }
+
+  .picture{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+  }
+
+  .wedding-pic{
+      height: 354.4px;
+      width: 262px;
+      margin: 0;
+      padding: 0;
+  }
+
+  
+  
