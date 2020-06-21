@@ -165,7 +165,31 @@
   }
 
   /* For tablets */
+  @media only screen and (min-width: 750px) {
+    .mobile-title{
+        font-size: 2.5rem;
+        margin-top: 15px;
+    }
+    
+    .wedding-pic{
+        height: 65%;
+        width: 55%;
+        margin: 0;
+        padding: 0;
+    }
 
+    figcaption{
+        font-size: 1rem;
+    }
+
+    .subheading{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+  }
 
 
   /* For desktop */
