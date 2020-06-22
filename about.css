@@ -164,6 +164,17 @@
   footer p {
       margin-left: 15px;
   }
+  @media only screen and (min-device-width: 660px) 
+                   and (max-device-width: 815px) 
+                   and (orientation: landscape) {
+                       .picture{
+                           margin-top: 200px;
+                       }
+
+                       .wedding-pic{
+                           width: 30%;
+                       }
+}
 
   @media only screen and (min-width: 420px) {
       .picture{
@@ -193,6 +204,10 @@
   }
 
   @media only screen and (min-width: 680px) {
+      .nav-bar{
+          height: 15vh;
+      }
+
       .picture{
           margin-top: 200px;
       }
@@ -216,8 +231,6 @@
     
     .wedding-pic{
         width: 75%;
-        margin: 0;
-        padding: 0;
     }
 
     figcaption{
