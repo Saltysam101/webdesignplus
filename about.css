@@ -166,47 +166,7 @@
   }
   
 
-  @media only screen and (min-width: 420px) {
-      .picture{
-          margin-top: 50px;
-      }
-  }
-
-  @media only screen and (min-width: 525px) {
-      .picture{
-          margin-top: 100px;
-          margin-bottom: 15px;
-      }
-
-      section{
-          margin-top: 45px;
-      }
-  }
-
-  @media only screen and (min-width: 610px){
-      .picture{
-          margin-top: 150px
-      }
-
-      section{
-          margin-top: 45px;
-      }
-  }
-
-  @media only screen and (min-width: 680px) {
-      .nav-bar{
-          height: 15vh;
-      }
-
-      .picture{
-          margin-top: 200px;
-      }
-
-      section{
-          margin-top: 75px;
-      }
-  }
-
+  
   /* For tablets */
   @media only screen and (min-width: 715px) {
     .mobile-title{
@@ -244,12 +204,7 @@
     }
   }
 
-  @media only screen and (min-width: 850px){
-      .picture{
-          margin-top: 300px;
-      }
-  }
-
+  
 
   /* For desktop */
   
